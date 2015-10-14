@@ -1,0 +1,21 @@
+Krypton Search - Search across multiple search engines
+=================================
+
+
+Heroku:
+- URL: TODO
+- Example: /search/arsenal
+- Example: /search/arsenal%20theo%20walcott
+- Example: /search/arsenal?bestResultsOnly=true
+
+- URL: http://localhost:9000/search/[ASCII encoded query]
+- Optional params: bestResultsOnly
+-- if true, only returns the results found on multiple, i.e. > 1 search engines. Defaults to false
+
+Supported Search Engines:
+- Google
+- Bing
+
+Supported Aggregate Strategy:
+- Round Robin (default)
+- Best Results Only (can be specified by the `bestResultsOnly` param)
