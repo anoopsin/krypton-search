@@ -3,10 +3,10 @@ Krypton Search - Search across multiple search engines
 
 
 Heroku:
-- URL: TODO
-- Example: /search/arsenal
-- Example: /search/arsenal%20theo%20walcott
-- Example: /search/arsenal?bestResultsOnly=true
+- URL: http://krypton-search.herokuapp.com
+- Example: http://krypton-search.herokuapp.com/search/arsenal
+- Example: http://krypton-search.herokuapp.com/search/arsenal%20theo%20walcott
+- Example: http://krypton-search.herokuapp.com/search/arsenal?bestResultsOnly=true
 
 - URL: http://localhost:9000/search/[ASCII encoded query]
 - Optional params: bestResultsOnly
